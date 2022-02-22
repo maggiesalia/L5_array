@@ -89,20 +89,21 @@ Reduce-ის საშუალებით მიიღეთ ერთი კ
 ამ რიცხვის კვადრატი. თუ ელემენტი არის ტექსტი, მაშინ ახალ მასივში უნდა იყოს ეს ტექსტი დიდი ასოებით. 
 სხვა შემთხვევაში ელემენტები უნდა დაემატოს უცვლელად; */
 
-let item = [12, 'google', 32, null, 'yahoo', 25];
-let array = item.map(function(x){
-    if (x == 'number'){
-        return x ** 2;
-    }
-    else if (x == 'string'){
-        return x.toUpperCase;
-    }
-    else{
-        return x
-    }
-})
+// let item = [12, 'google', 32, null, 'yahoo', 25];
 
-console.log(array);
+// let array = item.map(function(x){
+//     if (typeof x == 'number'){
+//         return x ** 2;
+//     }
+//     else if (typeof x == 'string'){
+//         return x.toUpperCase();
+//     }
+//     else{
+//         return x
+//     }
+// })
+
+// console.log(array);
 
 /* 8. Მოცემულია მასივი:
 Filter მეთოდის საშუალებით დააბრუნეთ მასივი, რომელიც შედგება ისეთი სიტყვებისგან რომელიც შეიცავს ასო m-ს ან M-ს; */
